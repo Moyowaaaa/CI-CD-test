@@ -56,6 +56,8 @@ app.listen(port, async () => {
   }
 });
 
+console.log("This is the dev branch");
+
 // app.get();
 
 process.on("uncaughtException", (err: Error) => {
