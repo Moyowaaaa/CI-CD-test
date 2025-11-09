@@ -56,6 +56,8 @@ app.listen(port, async () => {
   }
 });
 
+console.log("this is a dev test");
+
 process.on("uncaughtException", (err: Error) => {
   console.error("There was an uncaught error", err);
   process.exit(1);
